@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Adivina quien</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+	    <header>
+	        <nav class="navbar navbar-default">
+              <div class="container">
+                <div class="navbar-header">
+                    <h1>Smash Faces</h1>
+                  </a>
+                </div>
+              </div>
+            </nav>
+	    </header>
+		<section>
+		    <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5>Bienvenidas al juego de Smash Faces, tu misión es poder identificar a todas tus compañeras de clase ingresando para ellas su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</h5>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="form-group">
+                                    <label for="sel1">Elige tu sede:</label>
+                                    <select name="selectorPais" class="form-control selecter selectpicker" type="text" placeholder="" id="pais">
+                                        <option value="Chile"><a href="#">Chile</a></option>
+                                        <option value="Lima"><a href="#">Lima</a></option>
+                                        <option value="México"><a href="#">México</a></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                 <div id="contenedorJuego">
+                               <h4 class="text-center">Tienes<span id="spanPuntos">0</span> puntos</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row cuadro">
+                            <div class="col-md-5">
+                               <img class="img-responsive" id="imagenPersona" src="">
+                            </div>
+                            <div class="col-md-7">
+                                <label for="">Ingresa su nombre:</label><br>
+                                <input type="text" id="inputNombre"></input><br>
+                                <button class="btn btn-default" type="button" id="btnRevisar">Comprobar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</section>
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script src="js/jquery.js"></script>
+        <script src="js/main.js"></script>
+        <script src=http://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js></script>
+	</body>
+</html>
